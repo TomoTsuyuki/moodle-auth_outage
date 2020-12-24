@@ -110,3 +110,19 @@ body.auth_outage #nav-drawer {
 body.auth_outage nav.fixed-top.navbar {
     top: 100px;
 }
+
+body.auth_outage #page {
+    margin-top: 130px;
+}
+
+body.auth_outage.path-mod-assign [data-region="grading-navigation-panel"] {
+    top: 100px;
+}
+
+body.auth_outage.path-mod-assign [data-region="grade-panel"] {
+    top: 185px;
+}
+
+body.auth_outage .layout.fullscreen {
+    top: 150px;
+}
