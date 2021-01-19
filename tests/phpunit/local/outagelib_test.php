@@ -98,7 +98,7 @@ class outagelib_test extends auth_outage_base_testcase {
         $outage->id = outagedb::save($outage);
 
         outagelib::reset_injectcalled();
-        $header1 = outagelib::get_inject_code();
+        $header1 = $OUTPUT->standard_top_of_body_html();
         self::assertStringContainsString('<style>', $header1);
         self::assertStringContainsString('<script>', $header1);
 
